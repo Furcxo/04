@@ -1,0 +1,57 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(150, 15, 15);
+}
+main {
+  width: 350px;
+  height: 374px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-start;
+}
+#boy {
+  width: 104px;
+  height: 18px;
+}
+h6 {
+  color: #2e3349;
+  font-size: 18px;
+}
+/* 80K  */
+#follow {
+  width: 35px;
+  height: 18px;
+}
+#follow h1 {
+  font-size: 18px;
+  color: #2e3349;
+}
+#like {
+  width: 46px;
+  height: 18px;
+}
+#like h2 {
+  font-size: 18px;
+}
+#photo {
+  display: flex;
+}
+#photo2 {
+  border-radius: 60px;
+  padding-top: 1px;
+  width: 96px;
+  height: 96px;
+}
